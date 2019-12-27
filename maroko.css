@@ -30,6 +30,9 @@ body{
 div{
     margin-left:300px;
 }
+p{
+    font-size: 1rem;
+}
 header{
     background-color: lightskyblue;
     height: 65px;
@@ -60,10 +63,12 @@ header h1{
     margin-left: 1rem;
     display: inline-block;
     margin-top: 0.5rem;
+    font-size: 3rem;
 
 }
+
 span{
-    font-size:50px;
+    font-size:2rem;
 }
 #contact{
     display:flex;
@@ -76,12 +81,13 @@ span{
     display: block;
 }
 #contact div{
-    margin: 0;
-    padding: 0;
+    margin: 0 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
     display: flex;
     flex-flow: column;
     width: 50%;
     text-align: center;
+    flex-wrap: nowrap;
 
 }
 button{
@@ -159,13 +165,20 @@ a:visited{
 }
 a{
     text-decoration: none;
+    font-size: 1rem;
 }
 footer p{
     margin-left: 1rem;
+    font-size: 1rem;
 }
 h1, legend, a{
     font-family: 'Amatic SC', cursive;
 }
+legend{
+    font-size: 2rem;
+}
 iframe{
-    margin-left: 3rem;
+    margin-right: 6rem;
+    flex-basis: 25%;
+    width:100%;
 }
