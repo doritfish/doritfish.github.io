@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img{
     width: 300px;
     height: 300px;
@@ -181,4 +182,189 @@ iframe{
     margin-right: 6rem;
     flex-basis: 25%;
     width:100%;
+=======
+img{
+    width: 300px;
+    height: 300px;
+    
+}
+article img{
+    border-radius: 5rem;
+}
+a img{
+    width:15rem;
+    height: 15rem;
+    margin:0;
+    padding:0;
+
+}
+section div{
+    display:flex;
+    justify-content: center;
+
+}
+section article{
+   padding-left: 1rem;
+}
+body{
+    margin-top:0;
+    margin-left:0;
+    overflow: scroll;
+    background-color: blanchedalmond;
+}
+div{
+    margin-left:300px;
+}
+p{
+    font-size: 1rem;
+}
+header{
+    background-color: lightskyblue;
+    height: 65px;
+    width:100%;
+    position:fixed;
+    margin-top:0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    
+}
+label{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+
+}
+input{
+    display: block;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    width: 20rem;
+}
+header h1{
+    color:black;
+    margin-left: 1rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 3rem;
+
+}
+
+span{
+    font-size:2rem;
+}
+#contact{
+    display:flex;
+    text-align: center;
+    margin-top: 18rem;
+    margin-bottom: 5rem;
+    
+}
+#contact h2{
+    display: block;
+}
+#contact div{
+    margin: 0 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    text-align: center;
+    flex-wrap: nowrap;
+
+}
+button{
+    margin:0.5rem 5rem 1rem 1rem;
+}
+form{
+    height: 15rem;
+    width: 50%;  
+    border-radius: 5rem;
+}
+form fieldset{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;  
+    text-align: left;
+    
+}
+
+#contact form fieldset div{
+    width: 100%;
+    display: block;
+    margin:0.5rem 5rem 1rem 1rem;
+    padding:0;
+    
+    
+}
+div label{
+    margin-right:2rem;
+}
+#contact p{
+    display: block;
+}
+#about{
+    padding-top: 5rem
+}
+#summery{
+    margin-left:30px;
+}
+
+#pic{
+    margin-left:5px;
+}
+#pics1{
+    padding-top: 5rem;
+}
+.floatleft{
+    float:left;
+    margin: 0 1rem 1rem 1rem;
+}
+.circule{
+    
+    padding-right: 15rem;
+}
+ ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: 0.1rem dotted pink;
+    border-radius: 5rem;
+}
+nav{
+    text-align: right;
+    display: inline-block;
+    float: right; 
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+a:hover{
+    background-color: blanchedalmond;
+    border-radius: 5rem;
+    
+}
+a:visited{
+    color:black;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+footer p{
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+h1, legend, a{
+    font-family: 'Amatic SC', cursive;
+}
+legend{
+    font-size: 2rem;
+}
+iframe{
+    margin-right: 6rem;
+    flex-basis: 25%;
+    width:100%;
+>>>>>>> c9a2fe696c4814b8b5362214f1a696f8e638fd02
 }
